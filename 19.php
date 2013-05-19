@@ -44,7 +44,8 @@ $sql = sprintf("INSERT INTO stations (
     station_contry,
     station_language,
     station_type,
-    station_website) 
+    station_website,
+    station_position) 
     VALUES (
     '%s',
     '%s',
@@ -56,7 +57,9 @@ $sql = sprintf("INSERT INTO stations (
     '%d',
     '%s',
     '%d',
-    '%s');", addslashes($nombreEstacion), 
+    '%s',
+    '%d');", 
+        addslashes($nombreEstacion), 
         addslashes($urlStreaming), 
         addslashes($genero), 
         addslashes($frecuencia), 
@@ -65,12 +68,12 @@ $sql = sprintf("INSERT INTO stations (
         addslashes($pais), 
         utf8_encode($lenguaje), 
         addslashes($tipo), 
-        addslashes($sitioWeb));
+        addslashes($sitioWeb),
+        0);
 
 require_once 'EscucharadioConnection.php';
 $connection = new EscuchaRadioConnection();
 $connection->executeUpdated($sql);
-
 echo "la estacion se guardo correctamente ";
 
 ?>

@@ -15,26 +15,7 @@ header('P3P:CP="IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT
         <link rel="stylesheet" href="css/alertify.default.css" type="text/css"/>        
         <link rel="icon" href="images/favicon.ico" type="image/x-icon" /> 
         <link rel="image_src" href="images/escucharadio.png"/>
-        <script src="js/jquery-1.8.2.min.js" type="text/javascript"></script>
-        <script src="js/jquery.jplayer.min-2.3.0.js" type="text/javascript"></script>
-        <script src="js/jquery.corner-2.12.js" type="text/javascript"></script>      
-        <script src="js/alertify.min.js" type="text/javascript"></script>      
-        <script src="js/functions.js" type="text/javascript"></script>                
-
-        <script type="text/javascript">
-            var _gaq = _gaq || [];
-            _gaq.push(['_setAccount', 'UA-28147533-1']);
-            _gaq.push(['_trackPageview']);
-
-            (function() {
-                var ga = document.createElement('script');
-                ga.type = 'text/javascript';
-                ga.async = true;
-                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-                var s = document.getElementsByTagName('script')[0];
-                s.parentNode.insertBefore(ga, s);
-            })();
-        </script>
+        
 
         <title>escuchar radio por internet gratis | radio en vivo</title>
 
@@ -148,6 +129,27 @@ header('P3P:CP="IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT
             </div>
 
         </div> <!-- /1 -->
+
+        <script src="js/jquery-1.8.2.min.js" type="text/javascript"></script>
+        <script src="js/jquery.jplayer.min-2.3.0.js" type="text/javascript"></script>
+        <script src="js/jquery.corner-2.12.js" type="text/javascript"></script>      
+        <script src="js/alertify.min.js" type="text/javascript"></script>      
+        <script src="js/functions.js" type="text/javascript"></script>                
+
+        <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-28147533-1']);
+            _gaq.push(['_trackPageview']);
+
+            (function() {
+                var ga = document.createElement('script');
+                ga.type = 'text/javascript';
+                ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(ga, s);
+            })();
+        </script>
 
     </body>
 </html>
