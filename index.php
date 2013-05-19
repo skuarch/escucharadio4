@@ -15,7 +15,11 @@ header('P3P:CP="IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT
         <link rel="stylesheet" href="css/alertify.default.css" type="text/css"/>        
         <link rel="icon" href="images/favicon.ico" type="image/x-icon" /> 
         <link rel="image_src" href="images/escucharadio.png"/>
-        
+        <script src="js/jquery-1.8.2.min.js" type="text/javascript"></script>
+        <script src="js/jquery.jplayer.min-2.3.0.js" type="text/javascript"></script>
+        <script src="js/jquery.corner-2.12.js" type="text/javascript"></script>      
+        <script src="js/alertify.min.js" type="text/javascript"></script>      
+        <script src="js/functions.js" type="text/javascript"></script> 
 
         <title>escuchar radio por internet gratis | radio en vivo</title>
 
@@ -128,13 +132,7 @@ header('P3P:CP="IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT
                 <br/>todos los derechos reservados de autor skuarch | las estaciones son de sus autores | <a href="14.php">terminos legales</a> radio en vivo gratis
             </div>
 
-        </div> <!-- /1 -->
-
-        <script src="js/jquery-1.8.2.min.js" type="text/javascript"></script>
-        <script src="js/jquery.jplayer.min-2.3.0.js" type="text/javascript"></script>
-        <script src="js/jquery.corner-2.12.js" type="text/javascript"></script>      
-        <script src="js/alertify.min.js" type="text/javascript"></script>      
-        <script src="js/functions.js" type="text/javascript"></script>                
+        </div> <!-- /1 -->                       
 
         <script type="text/javascript">
             var _gaq = _gaq || [];
