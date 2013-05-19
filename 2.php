@@ -1,7 +1,7 @@
 <?php
     require_once "EscucharadioConnection.php";
-    $connection = new EscuchaRadioConnection();
-    $sql = "SELECT genre_name,station_id,station_name,station_url,station_language,station_active,station_type FROM stations LEFT JOIN genre ON (station_genre = genre_id) WHERE (station_active = 1) ORDER BY station_clicks desc limit " . $_POST['limit1'] . ",15;";
+    $connection = new EscuchaRadioConnection();    
+    $sql = "SELECT genre_name,station_id,station_name,station_url,station_language,station_active,station_type FROM stations LEFT JOIN genre ON (station_genre = genre_id) WHERE (station_active = 1) ORDER BY station_position desc limit " . $_POST['limit1'] . ",15;";    
     $result = $connection->executeQuery($sql);
     $i = 0;
 
