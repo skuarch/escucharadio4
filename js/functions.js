@@ -37,6 +37,7 @@ function innerHtml(id, text) {
     $('#' + id).html(text);
 } // end change menu
 
+//==============================================================================
 function deleteCookies() {
     document.cookie = "cookieStations = ''|" + ";max-age=1; path=/;";
     document.cookie = "cookieStations = ''|" + ";max-age=0; path=/;";

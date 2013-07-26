@@ -27,17 +27,17 @@ class Connection {
             
 	} // end __contruct           
         
-        //======================================================================
-        private function errorHandler($errno, $errstr, $errfile, $errline){            
-            $e = new ErrorHandler();
-            $e->handler($errno, $errstr, $errfile, $errline);
-        } // end errorHandler
+    //======================================================================
+    private function errorHandler($errno, $errstr, $errfile, $errline){            
+        $e = new ErrorHandler();
+        $e->handler($errno, $errstr, $errfile, $errline);
+    } // end errorHandler
 
 	//======================================================================
 	/**
-         * get the connection to database.         
-         * @return $link connection to database.
-         */
+    * get the connection to database.         
+    * @return $link connection to database.
+    */
 	private function getConnection(){
             
             $this->link = mysql_connect($this->server, $this->username, $this->password) or die (mysql_error());            
@@ -89,7 +89,7 @@ class Connection {
             $this->getConnection();     
             $this->selectDataBase();
             mysql_set_charset('utf8',$this->link);
-            mysql_query($sql) or die(mysql_error());
+            mysql_query($sql) or die(mysql_error());            
             $this->closeConnection();
             
         } // end executeUpdated

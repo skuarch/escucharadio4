@@ -16,6 +16,6 @@
 
     echo $sql2;
 
-    $connection->executeUpdated($sql);
+    echo $connection->executeUpdated($sql);
 
 ?>
